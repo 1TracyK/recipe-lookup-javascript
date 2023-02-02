@@ -1,0 +1,58 @@
+html {
+    font-size: 16px;
+    box-sizing:border-box;
+}
+
+::after, ::before{
+    box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    margin: 1 rem;
+}
+
+/* form*/
+
+.food-form {
+    display:flex;
+    align-items: 1.5rem;
+    justify-content: center;
+}
+.imput-label {
+  padding: 0.5rem;  
+  align-items: center;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.text-input {
+    padding: 0.25rem;
+    line-height:1.5 ; 
+}
+
+.search-button {
+    padding: 0.25rem;
+    font-size: 1.25rem;
+    color: whitesmoke;
+    background-color: rgb(112, green, blue), green, blue;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(255,255,255,0.5rem);
+}
+
+.search-button:hover{
+    background-color: rgb(112,107,107);
+
+}
+
+
+
+
+.button-12 {
+    display: flex;
+    flex-direction:column
+    align-items:center
+    padding: 6px 14px;
+    font-family:-apple-system, BlinkMacSystemFont, 
+}
